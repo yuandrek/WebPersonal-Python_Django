@@ -21,11 +21,10 @@ urlpatterns = [
     path('', include('core.urls')),
     path('', include('portfolio.urls')),
     path('about/', include('about.urls')),
-    #path('contact/', include('contact.urls')),
     path('admin/', admin.site.urls),
 ]
 
-# Configuración sólo para desarrollo: para ver las fotos en la web haciendo clic desde el admin
+
 if settings.DEBUG:
     from django.conf.urls.static import static
     urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
