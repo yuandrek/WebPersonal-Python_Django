@@ -8,3 +8,4 @@ media
 portfolio/__pycache__
 portfolio/migrations
 webpersonal/__pycache__
+*.sqlite3
