@@ -33,12 +33,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # core, contact, about
     'core.apps.CoreConfig',
-    #'contact.apps.ContactConfig',
     'about.apps.AboutConfig',
     'portfolio.apps.PortfolioConfig',
-    # Django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
