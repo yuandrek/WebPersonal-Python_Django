@@ -1,4 +1,4 @@
    # WEB PERSONAL
 
-   ### Página Web creada en lenguaje de HTML y Python
+   ### Página Web creada en lenguaje HTML y Python
    ### Implementando Framework Django
